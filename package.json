@@ -1,6 +1,6 @@
 {
   "name": "graphql-type-uuid",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "UUID scalar type for GraphQL.js",
   "author": "Matias Olivera <moliverafreire@gmail.com>",
   "license": "MIT",
