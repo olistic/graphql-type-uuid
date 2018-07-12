@@ -12,4 +12,4 @@ and this project adheres to
 
 Initial version.
 
-[unreleased]: https://github.com/olistic/warriorjs/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/olistic/graphql-type-uuid/compare/v0.1.0...HEAD
