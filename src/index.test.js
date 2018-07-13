@@ -83,8 +83,8 @@ describe('GraphQLUUID', () => {
       expect(value).toEqual('16fd2706-8baf-433b-82eb-8c7fada847da');
     });
 
-    test('rejects non-UUID literals', async () => {
-      const { errors } = await graphql(schema, '{ value(arg: "INVALID") }');
+    test('rejects non-UUID string literals', async () => {
+      const { errors } = await graphql(schema, '{ value(arg: "not a UUID") }');
       expect(errors.length).toBe(1);
     });
 
