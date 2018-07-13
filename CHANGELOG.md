@@ -8,8 +8,16 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.2.0] - 2018-07-13
+
+### Changed
+
+- Calling `.default` after `require('graphql-type-uuid')` is no longer needed
+  (nor supported).
+
 ## 0.1.0 - 2018-07-12
 
 Initial version.
 
-[unreleased]: https://github.com/olistic/graphql-type-uuid/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/olistic/graphql-type-uuid/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/olistic/graphql-type-uuid/compare/v0.1.0...v0.2.0
