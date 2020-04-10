@@ -7,7 +7,8 @@
   "repository": "https://github.com/olistic/graphql-type-uuid.git",
   "keywords": [
     "graphql",
-    "uuid"
+    "uuid",
+    "rfc-4122"
   ],
   "main": "lib/index.js",
   "files": [

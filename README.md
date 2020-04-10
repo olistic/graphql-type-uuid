@@ -12,6 +12,15 @@ This package exports a UUID scalar GraphQL.js type:
 import GraphQLUUID from 'graphql-type-uuid';
 ```
 
+This type can also be imported as follows using CommonJS:
+
+```js
+const GraphQLUUID = require('graphql-type-uuid');
+```
+
+GraphQLUUID can represent any UUID version specified in
+[RFC 4122](https://tools.ietf.org/html/rfc4122).
+
 ### Programmatically-constructed schemas
 
 You can use this in a programmatically-constructed schema as with any other
