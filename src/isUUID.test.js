@@ -49,6 +49,7 @@ describe('isUUID', () => {
     expect(isUUID('')).toBe(false);
     expect(isUUID('INVALID')).toBe(false);
     expect(isUUID('abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef')).toBe(false);
+    expect(isUUID('02c44232-4ac6-6eda-9ad2-735096bbaf34')).toBe(false);
     expect(isUUID('886313e1-3b8a-0372-9b90-0c9aee199e5d')).toBe(false);
     expect(isUUID('886313e13b8a53729b900c9aee199e5d')).toBe(false);
   });
